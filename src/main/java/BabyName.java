@@ -1,9 +1,9 @@
-public class babyName {
+public class BabyName {
     private String name;
     private Gender gender;
     private int listingNumber;
 
-    public babyName(String name,Gender gender, int listingNumber) {
+    public BabyName(String name, Gender gender, int listingNumber) {
         this.name = name;
         this.gender = gender;
         this.listingNumber = listingNumber;
