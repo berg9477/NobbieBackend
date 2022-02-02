@@ -13,8 +13,8 @@ public class Baby {
         this.gender = gen;
         this.expected = expected;
         LocalDate today = LocalDate.now();
-            //someone cannot be overdue more than 2 months
-            if(expected && today.isAfter(date.plusMonths(2))){
+            //someone cannot be overdue more than 1 month
+            if(expected && today.isAfter(date.plusMonths(1))){
                 this.expected = false;
                 this.weeksLeft = 0;
                 System.out.println("expected set false because person cant be overdue more then 2 months");
